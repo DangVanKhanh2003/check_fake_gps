@@ -44,7 +44,6 @@ class _ScannerViewState extends State<ScannerView> {
     'B2.5_UnreasonableSpeed': true,
     'B2.6_OverlyAccurateGps': true,
     'B2.7_TooConsistentSpeed': true,
-    'B2.8_AbnormalBehavior': true,
   };
 final Map<String, String> _checkDisplayNames = {
   'B1.1_RootJailbreak': 'Phát hiện Root/Jailbreak',
@@ -54,7 +53,6 @@ final Map<String, String> _checkDisplayNames = {
   'B2.5_UnreasonableSpeed': 'Tốc độ không hợp lý',
   'B2.6_OverlyAccurateGps': 'Độ chính xác GPS bất thường',
   'B2.7_TooConsistentSpeed': 'Tốc độ quá đều đặn',
-  'B2.8_AbnormalBehavior': 'Hành vi bất thường',
 };
 
   @override
